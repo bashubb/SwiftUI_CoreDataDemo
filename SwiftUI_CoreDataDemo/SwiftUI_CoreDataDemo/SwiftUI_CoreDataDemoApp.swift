@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUI_CoreDataDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            DataModels()
+            FirstExampleView()
+                .environment(\.managedObjectContext, FirstExampleContainter().persistentContainer.viewContext)
+            
         }
     }
 }
