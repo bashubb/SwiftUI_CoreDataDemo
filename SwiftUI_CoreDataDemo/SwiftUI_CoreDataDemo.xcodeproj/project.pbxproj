@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5657C5B2AC6E4A9001C97D9 /* FriendsDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5657C592AC6E4A9001C97D9 /* FriendsDataModel.xcdatamodeld */; };
+		B5657C5D2AC6E4E7001C97D9 /* FriendsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5657C5C2AC6E4E7001C97D9 /* FriendsContainer.swift */; };
+		B5657C5F2AC6F1CA001C97D9 /* FriendsMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5657C5E2AC6F1CA001C97D9 /* FriendsMockData.swift */; };
+		B5657C612AC6F20A001C97D9 /* PreviewingData_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5657C602AC6F20A001C97D9 /* PreviewingData_Intro.swift */; };
 		B5C3FF8B2AC5A1720055694C /* SwiftUI_CoreDataDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3FF8A2AC5A1720055694C /* SwiftUI_CoreDataDemoApp.swift */; };
 		B5C3FF8D2AC5A1720055694C /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3FF8C2AC5A1720055694C /* DataModels.swift */; };
 		B5C3FF8F2AC5A1740055694C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C3FF8E2AC5A1740055694C /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5657C5A2AC6E4A9001C97D9 /* FriendsDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendsDataModel.xcdatamodel; sourceTree = "<group>"; };
+		B5657C5C2AC6E4E7001C97D9 /* FriendsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsContainer.swift; sourceTree = "<group>"; };
+		B5657C5E2AC6F1CA001C97D9 /* FriendsMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsMockData.swift; sourceTree = "<group>"; };
+		B5657C602AC6F20A001C97D9 /* PreviewingData_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewingData_Intro.swift; sourceTree = "<group>"; };
 		B5C3FF872AC5A1720055694C /* SwiftUI_CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C3FF8A2AC5A1720055694C /* SwiftUI_CoreDataDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CoreDataDemoApp.swift; sourceTree = "<group>"; };
 		B5C3FF8C2AC5A1720055694C /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
@@ -38,6 +46,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5657C582AC6E479001C97D9 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				B5657C602AC6F20A001C97D9 /* PreviewingData_Intro.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		B5657C622AC6F213001C97D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5657C632AC6F21B001C97D9 /* Friends */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5657C632AC6F21B001C97D9 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				B5657C5C2AC6E4E7001C97D9 /* FriendsContainer.swift */,
+				B5657C592AC6E4A9001C97D9 /* FriendsDataModel.xcdatamodeld */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
 		B5C3FF7E2AC5A1720055694C = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				B5C3FF8A2AC5A1720055694C /* SwiftUI_CoreDataDemoApp.swift */,
+				B5657C622AC6F213001C97D9 /* Models */,
 				B5C3FF992AC5A4AB0055694C /* FirstExample */,
+				B5657C582AC6E479001C97D9 /* MockData */,
 				B5C3FF982AC5A2020055694C /* DataModels */,
 				B5C3FF8E2AC5A1740055694C /* Assets.xcassets */,
 				B5C3FF902AC5A1740055694C /* Preview Content */,
@@ -70,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				B5C3FF912AC5A1740055694C /* Preview Assets.xcassets */,
+				B5657C5E2AC6F1CA001C97D9 /* FriendsMockData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -163,10 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C3FF9E2AC5A5770055694C /* FirstExampleView.swift in Sources */,
+				B5657C5B2AC6E4A9001C97D9 /* FriendsDataModel.xcdatamodeld in Sources */,
+				B5657C5D2AC6E4E7001C97D9 /* FriendsContainer.swift in Sources */,
 				B5C3FF8D2AC5A1720055694C /* DataModels.swift in Sources */,
+				B5657C612AC6F20A001C97D9 /* PreviewingData_Intro.swift in Sources */,
 				B5C3FF9C2AC5A4DC0055694C /* FirstExample.xcdatamodeld in Sources */,
 				B5C3FFA02AC5A58E0055694C /* FirstExampleContainter.swift in Sources */,
 				B5C3FF8B2AC5A1720055694C /* SwiftUI_CoreDataDemoApp.swift in Sources */,
+				B5657C5F2AC6F1CA001C97D9 /* FriendsMockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +414,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		B5657C592AC6E4A9001C97D9 /* FriendsDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5657C5A2AC6E4A9001C97D9 /* FriendsDataModel.xcdatamodel */,
+			);
+			currentVersion = B5657C5A2AC6E4A9001C97D9 /* FriendsDataModel.xcdatamodel */;
+			path = FriendsDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		B5C3FF9A2AC5A4DC0055694C /* FirstExample.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
